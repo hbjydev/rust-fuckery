@@ -1,0 +1,4 @@
+---
+name: hello-world-ts
+language: typescript
+template: pulumi
