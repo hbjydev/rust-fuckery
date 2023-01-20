@@ -35,6 +35,7 @@ Options:
 $ cargo build --release
 $ ls target/release
 build  deps  examples  incremental  rust-fuckery  rust-fuckery.d
+                                    ~~~~~~~~~~~~ <-- our binary
 $ target/release/rust-fuckery -h
 Usage: rust-fuckery [name] [COMMAND]
 
