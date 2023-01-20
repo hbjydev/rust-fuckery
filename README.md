@@ -28,3 +28,24 @@ Options:
   -V, --version  Print version
 ```
 
+## Building
+
+```sh
+# release build
+$ cargo build --release
+$ ls target/release
+build  deps  examples  incremental  rust-fuckery  rust-fuckery.d
+$ target/release/rust-fuckery -h
+Usage: rust-fuckery [name] [COMMAND]
+
+Commands:
+  generate  generates a build template from a config file
+  help      Print this message or the help of the given subcommand(s)
+
+Arguments:
+  [name]
+
+Options:
+  -h, --help     Print help
+  -V, --version  Print version
+```
